@@ -1,0 +1,123 @@
+main .homepage .images ul{
+    display: flex;
+   list-style: none;
+}
+main .homepage .images ul img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.images1 img{
+    position: absolute;
+}
+
+.waterfall{
+    margin-top: 840px;
+    margin-left: 145px;
+    height: 850px;
+}
+.desert{
+    margin-top: 1000px;
+}
+.about1 h1{
+    margin-top: 910px;
+    margin-left: 40px;
+    color: rgb(0, 255, 255);
+    font-family: 'Inter',sans-serif;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+p{
+    margin-left: 40px;
+    color: rgb(212, 217, 222);
+    font-size: larger;
+    width: 60%;
+    font-family: 'Inria Sans',sans-serif;
+}
+.desert-rock{
+    height: 780px;
+    margin-top: 1000px;
+    left: -10px;
+    top:-20px;
+}
+.water1{
+    margin-top: 1000px;
+    width: 100%;
+    top: 0;
+    left: 0;
+} 
+.water2{
+    margin-top: -110px;
+}
+.grass{
+    width: 100%;
+    margin-top: 970px;
+    top: 0;
+    left: 0;
+}
+.products{
+    margin-top: 590px;
+    background-color: rgba(18,17,55,255);
+}
+.products ul{
+    display: flex;
+    list-style: none;
+    padding: 0 80px;
+}
+.products ul li div{
+    text-align: center;
+    width: 300px;
+    height: 610px;
+    border:2px solid aqua;
+    border-radius: 5px;
+    box-shadow:0 0 10px aqua;
+    padding: 20px 10px;
+    margin: 80px 20px 30px 20px;
+}
+.products img{
+    width: 200px;
+}
+.products ul li div h1{
+    color: aqua;
+    font-size: xx-large;
+    font-family: 'Madimi One',sans-serif;
+}
+.products ul li div .card{
+     margin-top: 40px;
+     margin-bottom: 10px;
+}
+.products ul li div .product1{
+    margin-top: 70px;
+}
+.products ul li div p{
+    margin-left: 50px;
+}
+.products ul li div button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: aqua;
+    border: 0;
+    color: rgb(12, 11, 31);
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.products ul li div button:hover{
+    box-shadow:0 0 10px aqua;
+}
+.button1{
+    margin-top: 10px;
+}
+.products h1{
+    text-align: center;
+   padding-top: 40px;
+   color: aqua;
+   font-size: xx-large;
+   text-transform: capitalize;
+   font-family: 'Montserrat',sans-serif;
+   padding-bottom:0;
+   margin-bottom: 0;
+}

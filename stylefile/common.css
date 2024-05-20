@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgba(29,0,44,255);
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    z-index: 100;
+    color: rgb(48, 223, 235);
+    width: 100%;
+    box-sizing: border-box;
+}
+header a{
+   font-family: 'Roboto Mono',sans-serif;
+   font-size: xx-large;
+   text-transform: capitalize;
+   font-weight: bold;
+   margin-left: 60px;
+   text-decoration: none;
+   color: rgb(48, 223, 235);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 60px;
+}
+nav ul li{
+    margin:0 20px;
+    font-weight: 500;
+    font-size:large;
+    padding: 5px ;
+}
+nav ul li:hover{
+    background-color: rgba(0, 255, 255, 0.304);
+    padding: 5px ;
+    border-radius: 5px;
+    border: none;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb
+{
+    height:70px;
+    background-color: aqua; 
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    width: 5px;
+}
